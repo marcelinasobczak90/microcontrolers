@@ -40,8 +40,8 @@ leds = neopixel.NeoPixel(board.GP28, leds_num, brightness=brightness, auto_write
 tail = [i for i in range(0,tail_num)]
 inner_square = [i for i in range(22,42)]
 inner_star = [i for i in range(42,59)] + [21]
-sharp_star = [i for i in range(59,73)] + [98,99] # ustawione
-outer_star = [i for i in range(73,98)] # ustawione
+sharp_star = [i for i in range(59,73)] + [98,99] 
+outer_star = [i for i in range(73,98)] 
 
 tail_pixels = PixelMap(leds, tail, individual_pixels=True)
 inner_pixels = PixelMap(leds, inner_square, individual_pixels=True)
